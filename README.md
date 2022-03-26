@@ -1,6 +1,6 @@
 # vue-cli-first
 
-    ##vue-cli-first
+##vue-cli-first
 
 ## Project setup
 ```
