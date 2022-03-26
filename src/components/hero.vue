@@ -1,20 +1,25 @@
 <template>
   <div class="hello">
+  
     <h1>{{message}}</h1>
     
   </div>
+
+  
 </template>
 
 <script>
 export default {
-  name: 'mioTitolo',
+  name: 'mioEroe',
   data() {
     return{
-      message: "La mia prima app con Vue CLI!"
+      message: "JUMBOTRON",
+
     }
   
   },
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -32,5 +37,10 @@ li {
 }
 a {
   color: #42b983;
+}
+
+div.hello h1{
+  color: blue;
+
 }
 </style>
