@@ -1,25 +1,15 @@
  <template>
   <div id="app">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-            <div class="header">
-              <mioTitolo />
-              <img alt="Vue logo" src="./assets/logo.png" />
-
-            
-            </div>
-    
-            <div class="jumbo">
-              <mioEroe />
-              <img  alt="Vue logo" src="./assets/img/montagna.jpg" />
-              
-              
-            </div>
-        </div>
+      <div class="header">
+        <mioTitolo />
+        <img alt="Vue logo" src="./assets/logo.png" />
       </div>
-    </div>
 
+      <div class="jumbo">
+        <mioEroe />
+        <img  alt="Vue logo" src="./assets/img/montagna.jpg" />
+        
+      </div>
   </div>
 </template>
 
